@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>资料管理系统</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-1.11.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/common.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#" style="font-size:large;">资料管理系统</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="system.html">主页</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="system-code.html">代码数据</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="system-paper.html" >论文讲解</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="system-study.html">学习进程</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="system-other.html">其他文档</a>
+                </li>
+                <li id="teacher" class="nav-item">
+                    <a class="nav-link" href="system-teacher.html">教师界面</a>
+                </li>
+            </ul>
+            <span style="color: white" id="userName"></span>
+            <ul class="navbar-nav px-3">
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:logout()">退出登录</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+
+        <div class="text-center" style="margin-bottom: 30px;margin-top: 10px;">
+            <img src="../images/school.jpg" alt="sau" style="height: 250px;">
+        </div>
+
+        <div class="jumbotron shadow">
+            <h2 class="display-4 text-center">资料管理系统</h2>
+            <p class="lead text-center">
+                欢迎来到资料管理系统，帮助学生管理数据，上传实验代码
+            </p>
+            <hr class="my-4">
+            <p class="text-center">
+                1.学生上传与实验相关的实验数据功能。
+            </p>
+            <p class="text-center">
+                2.学生在实验各个阶段会完成不同功能的代码，系统提供上传保存这些实验代码的功能，可供同组内其他同学参考学习。
+            </p>
+        </div>
+    </div>
+</body>
+</html>

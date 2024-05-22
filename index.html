@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="baipiao">
+    <meta name="modify_author" content="vvshuai and Bootstrap contributors">
+    <title>登录页</title>
+
+    <link rel="canonical" href="https://v4.bootcss.com/docs/examples/sign-in/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="css/signin.css" rel="stylesheet">
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body class="text-center">
+<fieldset class="form-signin">
+    <img class="mb-4" src="images/school.png" alt="" width="72" height="72">
+    <h1 class="h3 mb-3 font-weight-normal">资料管理系统</h1>
+    <label for="login_number" class="sr-only">学号</label>
+    <input type="email" id="login_number" class="form-control" placeholder="学号或教师号" maxlength="20">
+    <label for="login_password" class="sr-only">密码</label>
+    <input type="password" id="login_password" class="form-control" placeholder="密码" maxlength="20">
+    <div class="checkbox mb-3">
+        <label>
+            <input type="checkbox" value="remember-me"> 记住密码
+        </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="login()">登录</button>
+    <p class="mt-5 mb-3 text-muted">© 2024 版权所有:fanfutian</p>
+</fieldset>
+
+</body>
+
+</html>
